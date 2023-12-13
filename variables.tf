@@ -12,7 +12,7 @@ variable "aws_profile" {
   default = null
 }
 
-variable "region" {}
+variable "aws_region" {}
 variable "project" {}
 variable "environment" {}
 variable "ami" {}
