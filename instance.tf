@@ -8,9 +8,9 @@ resource "aws_instance" "instance" {
   associate_public_ip_address = var.associate-public-ip
   key_name                    = var.keypair-name
   tags = {
-    Name    = var.instance-name
+    Name        = var.instance-name
     Environment = var.environment
-    Project = var.project
+    Project     = var.project
   }
 
   # EBS root

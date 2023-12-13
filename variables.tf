@@ -1,8 +1,15 @@
 variable "aws_access_key" {
-  type = string
+  type = any
+  default = null
 }
 variable "aws_access_secret_key" {
-  type = string
+  type = any
+  default = null
+}
+
+variable "aws_profile" {
+  type = any
+  default = null
 }
 
 variable "region" {}
