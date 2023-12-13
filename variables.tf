@@ -1,7 +1,10 @@
-variable "aws_profile" {
+variable "aws_access_key" {
   type = string
-  default = null
 }
+variable "aws_access_secret_key" {
+  type = string
+}
+
 variable "region" {}
 variable "project" {}
 variable "environment" {}
